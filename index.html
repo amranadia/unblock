@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="discord.html">
+    
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+    
+        <!-- Optional JavaScript; choose one of the two! -->
+    
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+    
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        -->
+        <script>
+          // var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+          // var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+          // return new bootstrap.Popover(popoverTriggerEl)
+          // }) 
+          // var popover = new bootstrap.Popover(document.querySelector('.example-popover'), {
+          // container: 'body'
+          // })
+    
+          $(document).ready(function(){
+              $('[data-bs-toggle="popover"]').popover();  
+          });
+    
+        </script> 
+      </head>
+
+     
+  </head>
+  <body data-spy="scroll" data-target="#website-navbar" data-offset="100" background="./misc/papyrus.png">
+    <br>
+    
+    <nav id="website-navbar" class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <a class="navbar-brand">
+          Websites
+        </a>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-target" aria-controls="navbar-target">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbar-target" class="navbar-content collapse navbar-collapse">
+            <ul class="navbar-nav"> 
+                <li class="nav-item" >
+                    <a class="nav-link" href="index.html">
+                        main page
+                    </a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" href="discord.html">
+                        discord
+                    </a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" href="whatsapp.html">
+                       whatsapp
+                    </a>
+                </li>
+            </ul>            
+        </div>
+    </nav>
+    <div class="row" id="main-picture">
+        <div class="col-md-12">
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            If you get scolded using this website, it is not my fault but yours.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <P> Go <a href="https://chrome.google.com/webstore/detail/iframe-allow/gifgpciglhhpmeefjdmlpboipkibhbjg"> here </a> to install iframe extension to allow the websites to work.</P>
+    <P> By using this website you are completely at fault if you get caught/scolded/punished and not me.</P>
+    <P> This website is for practicing purposes </P>
+  </body>
